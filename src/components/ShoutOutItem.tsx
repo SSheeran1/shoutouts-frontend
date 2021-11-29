@@ -1,7 +1,4 @@
-import { userInfo } from "os";
-import { useContext } from "react";
 import { Link } from "react-router-dom";
-import AuthContext from "../context/AuthContext";
 import ShoutOut from "../Models/ShoutOut";
 import "./ShoutOutItem.css";
 
@@ -27,7 +24,7 @@ const ShoutOutItem = ({ item, deleteShoutOutHandler }: Props) => {
         </Link>
       </p>
       <p>{item.message}</p>
-      {item.image && <img src={item.image} alt={"user upload"} />}
+      {item.image && <img src={item.image} alt="user upload file" />}
       <button onClick={() => deleteShoutOutHandler(item._id!)}>X</button>
     </li>
   );

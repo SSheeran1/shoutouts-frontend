@@ -1,0 +1,26 @@
+.AddShoutOutForm {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  list-style: none;
+
+  padding: 20px;
+}
+
+.AddShoutOutForm button {
+  border: 3px solid #999;
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+  width: 200px;
+}
+
+.AddShoutOutForm #to {
+  width: 300px;
+}
+
+.AddShoutOutForm #from {
+  width: 300px;
+}

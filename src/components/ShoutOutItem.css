@@ -1,0 +1,13 @@
+.ShoutOutItem {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  list-style: none;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.ShoutOutItem .links {
+  text-decoration: none;
+  color: #4257cc;
+}
